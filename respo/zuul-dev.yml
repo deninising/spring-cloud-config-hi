@@ -15,5 +15,5 @@ zuul:
       path: /api/admin/**
       serviceId: hi-spring-cloud-service-admin
   api-a:
-      path: /api/zuul/**
-      serviceId: hi-spring-cloud-zuul
+      path: /api/config/**
+      serviceId: hi-spring-cloud-config
