@@ -17,5 +17,5 @@ zuul:
     api-b:
       path: /api/config/**
       serviceId: hi-spring-cloud-config
-ribbon:
-  ReadTimeOut: 10000
+  host:
+    socket-timeout-mills: 10000
