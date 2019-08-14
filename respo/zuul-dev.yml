@@ -18,4 +18,4 @@ zuul:
       path: /api/config/**
       serviceId: hi-spring-cloud-config
   host:
-    socket-timeout-mills: 10000
+    socket-timeout-millis: 10000
