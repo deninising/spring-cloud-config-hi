@@ -12,5 +12,8 @@ eureka:
 zuul:
   routes:
     api-a:
-      path: /api/a/**
+      path: /api/admin/**
       serviceId: hi-spring-cloud-service-admin
+  api-a:
+      path: /api/zuul/**
+      serviceId: hi-spring-cloud-zuul
